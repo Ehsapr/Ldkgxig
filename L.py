@@ -10,10 +10,10 @@ from datetime import datetime, timedelta
 from typing import Dict, Any, List 
 
 # --- تنظیمات ضروری ربات ---
-API_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+API_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "7278048756:AAGHQYY-tGZM27isQ8wJPpVRfKkL9uF3GqE")
 ADMIN_ID = 7030085944  # Set this to your actual Telegram user ID
-REQUIRED_CHANNEL_ID = int(os.getenv("REQUIRED_CHANNEL_ID", "0"))
-REQUIRED_CHANNEL_LINK = os.getenv("REQUIRED_CHANNEL_LINK", "https://t.me/your_channel")
+REQUIRED_CHANNEL_ID = int(os.getenv("REQUIRED_CHANNEL_ID", "-1002577455963"))
+REQUIRED_CHANNEL_LINK = os.getenv("REQUIRED_CHANNEL_LINK", "https://t.me/masihfinance_orginal")
 
 # --- تنظیمات امتیازدهی و زمان‌بندی ---
 REF_POINTS = 1  # امتیاز هر دعوت
